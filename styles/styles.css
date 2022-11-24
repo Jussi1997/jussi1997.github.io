@@ -1,0 +1,133 @@
+body {
+	background-image: url("https://images8.alphacoders.com/283/283999.jpg");
+	background-position: left center;
+	background-size: cover;
+	}
+.container{
+	width: 100%;
+	height: 100vh;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	}
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+	}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+	}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+	}
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;	
+}	
+h1{
+	color: white;
+	font-size: 50px;
+	}
+p{
+	color: white;
+	font-size: 25px;
+	line-height: 25px;
+	}
+button{
+	width: 180px;
+	color: white;
+	font-size: 12px;
+	padding: 12px 0;
+	background: black;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
+	}
+.card{
+	width: 200px;
+	height:230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+	}
+	.card1{
+		background-image: url("https://cdn-r.fishpond.co.nz/0102/999/327/1472955641/6.jpeg");
+		}
+		.card2{
+		background-image: url("https://upload.wikimedia.org/wikipedia/fi/b/b9/Theroundhousetapes.jpg");
+		}
+		.card3{
+		background-image: url("https://m.media-amazon.com/images/I/613gSb3XOlL._AC_SY580_.jpg");
+		}
+		.card4{
+		background-image: url("https://upload.wikimedia.org/wikipedia/en/3/30/Opeth_-_Garden_of_the_Titans_-_Live_at_Red_Rocks_Amphitheater.png");
+		}
+		.card:hover{
+			transform: translateY(-10px);
+			}
+h5{
+	color:white;
+	text-shadow: 0 0 5px #999;
+	}
+a {
+  color: white;
+}
+.container1{
+	max-width: 1200px;
+	margin:auto;
+	background:#f2f2f2;
+	overflow:auto;
+	}
+.gallery{
+		margin:5px;
+		border:1px; solid #ccc;
+		float:left;
+		width:390px;
+		}
+.gallery img{
+	width:100%;
+	height:auto;
+	}
+.desc{
+	padding:15px;
+	text-align:center;
+	
+	
+	
+		
+
+			
+		
+	
+	
+	
+	
+		
+	
+	
+	
+	
+
+	
+
+		
